@@ -1,1 +1,85 @@
-Hello World
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+
+</head>
+
+<body>
+    <h1>Welcome to my webpage!</h1>
+    <p>Here are some things I can do:</p>
+    <ul>
+        <li>Create a basic HTML document structure</li>
+        <li>Add headings and paragraphs</li>
+        <li>Insert images and videos</li>
+        <li>Create links to other pages or websites</li>
+        <li>Style the page with CSS</li>
+        <li>Add interactivity with JavaScript</li>
+    </ul>
+
+    <h2>Headings and Paragraphs</h2>
+    <h3>Headings</h3>
+    <p>Headings are used to give structure to your content. There are six levels of headings, with h1 being the most important and h6 being the least important.</p>
+    <h1>Heading Level 1</h1>
+    <h2>Heading Level 2</h2>
+    <h3>Heading Level 3</h3>
+    <h4>Heading Level 4</h4>
+    <h5>Heading Level 5</h5>
+    <h6>Heading Level 6</h6>
+
+    <h3>Paragraphs</h3>
+    <p>Paragraphs are used to group together related sentences or pieces of information. They are a great way to break up your content and make it easier to read.</p>
+
+    <h2>Images and Videos</h2>
+    <h3>Images</h3>
+    <p>Images are a great way to add visual interest to your webpage. You can use the &lt;img&gt; tag to insert an image into your page.</p>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+
+    <h3>Videos</h3>
+    <p>Videos are a great way to add dynamic content to your webpage. You can use the &lt;video&gt; tag to insert a video into your page.</p>
+    <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Links</h2>
+    <p>Links are a great way to connect your webpage to other pages or websites. You can use the &lt;a&gt; tag to create a link.</p>
+    <a href="https://www.google.com/">Google</a>
+
+    <h2>CSS</h2>
+    <p>CSS is used to style your webpage. You can use CSS to change the font, color, size, and layout of your content.</p>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        p {
+            font-family: verdana;
+            font-size: 20px;
+        }
+    </style>
+
+    <h2>JavaScript</h2>
+    <p>JavaScript is used to add interactivity to your webpage. You can use JavaScript to create animations, respond to user input, and more.</p>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello World!";
+        }
+    </script>
+    <button onclick="myFunction()">Click me</button>
+    <p id="demo"></p>
+
+</body>
+
+</html>
